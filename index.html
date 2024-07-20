@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0">
+  <meta name="description" content="Piano Keyboard developed with HTML, CSS and Javascript">
+  <meta name="keywords" content="piano, css, html, javascript, front-end">
+  <title>Piano Keyboard</title>
+  <link rel="shortcut icon" href="assets/img/ico/favicon2.ico" />
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Piano -->
+  <ul class="piano">
+    <li class="key">
+      <span class="white-key" data-key="20" data-note="1C" id="A"></span>
+      <span class="black-key" data-key="81" data-note="1Cs" id="B"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="65" data-note="1D" id="C"></span>
+      <span class="black-key" data-key="87" data-note="1Ds" id="D"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="83" data-note="1E" id="E"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="68" data-note="1F" id="F"></span>
+      <span class="black-key" data-key="82" data-note="1Fs" id="G"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="70" data-note="1G" id="H"></span>
+      <span class="black-key" data-key="84" data-note="1Gs" id="I"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="71" data-note="2A" id="J"></span>
+      <span class="black-key" data-key="89" data-note="2As" id="K"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="72" data-note="2B" id="L"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="74" data-note="2C" id="M"></span>
+      <span class="black-key" data-key="73" data-note="2Cs"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="75" data-note="2D" id="N"></span>
+      <span class="black-key" data-key="79" data-note="2Ds" id="O"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="76" data-note="2E" id="P"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="186" data-note="2F" id="Q"></span>
+      <span class="black-key" data-key="219" data-note="2Fs" id="R"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="222" data-note="2G" id="S"></span>
+      <span class="black-key" data-key="221" data-note="2Gs" id="T"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="220" data-note="3A" id="U"></span>
+      <span class="black-key" data-key="13" data-note="3As" id="Y"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" data-key="37" data-note="3B"></span>
+    </li>
+    <br>
+    <span class="wlink"><a href="https://mczak.com/code/piano/">Piano for your Website</a></span>
+  </ul>
+  <!-- End Piano -->
+  <!-- Site -->
+  <div class="wrap">
+    <!-- Container -->
+    <div class="container">
+      <h1>Selected Keys</h1>
+      <h2></h2>
+      <p id="clicked_ids"></p>
+      <button onclick="clearIds()" id="clear">Clear</button>
+      <hr>
+    </div>
+    <!-- End Container -->
+  </div>
+  <!-- End Site -->
+  <!-- Scripts -->
+  <script type="text/javascript" src="assets/js/scripts.min.js"></script>
+</body>
+</html>
